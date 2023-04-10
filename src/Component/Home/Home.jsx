@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
-        <div>
+        <div className="flex flex-col justify-between h-[800px]">
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>

@@ -8,6 +8,11 @@ import {
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import HomePage from './Component/HomePage/HomePage';
+import JobDetails from './Component/JobDetails/JobDetails';
+import Error from './Component/Error/Error';
+import Statistics from './Component/Statistics/Statistics';
+import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
+import Blog from './Component/Blog/Blog';
 
 
 const router = createBrowserRouter([
@@ -16,8 +21,27 @@ const router = createBrowserRouter([
     element: <Home></Home>,
     children: [
       {
-      
+        path: '/',
+        element: <HomePage></HomePage>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/appliedJobs',
+        element: <AppliedJobs></AppliedJobs>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+
+      {
+        path: '/**',
+        element: <Error></Error>
       }
+
     ],
   },
 ]);

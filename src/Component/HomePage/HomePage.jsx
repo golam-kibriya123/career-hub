@@ -5,10 +5,9 @@ import React from 'react';
 
 const HomePage = () => {
     return (
-        <div className="w-[1290px] flex flex-col items-center justify-center">
+        <div className="">
 
-            <NavBar></NavBar>
-            <Footer></Footer>
+            <h1>this is home page</h1>
         </div>
     );
 };
