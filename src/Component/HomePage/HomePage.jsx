@@ -2,6 +2,7 @@
 import "./HomePage.css"
 import React from 'react';
 import headerImg from '../../assets/allImages/header.png'
+import JobList from "../JobList/JobList";
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
                     <img src={headerImg} alt="" className="w-full  " />
                 </div>
             </header>
+            <JobList></JobList>
         </div>
     );
 };

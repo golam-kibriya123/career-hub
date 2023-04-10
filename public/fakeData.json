@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "job_available": "200+",
+        "vacancy_position": "Web Developer",
+        "location": "New York",
+        "salary": "10k - 20k",
+        "description": "We are seeking a skilled Web Developer to join our team. The ideal candidate will be responsible for designing, coding, and modifying websites, from layout to function and according to a client's specifications.",
+        "experiences": "2-3 years",
+        "responsibilities": "Designing, coding, and modifying websites",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "company_name": "ABC Company",
+        "phone_number": "+1 (123) 456-7890",
+        "email": "webdev@abccompany.com",
+        "icon": "./Icons/accounts.png",
+        "logo": "./logo/google-1.png"
+    },
+    {
+        "id": 2,
+        "job_available": "20+",
+        "vacancy_position": "Marketing Manager",
+        "location": "Los Angeles",
+        "salary": "20k - 30k",
+        "description": "We are seeking a talented Marketing Manager to join our team. The ideal candidate will be responsible for developing and implementing marketing strategies, as well as managing and mentoring the marketing team.",
+        "experiences": "2-3 years",
+        "responsibilities": "Developing and implementing marketing strategies",
+        "educational_requirements": "Bachelor's degree in Marketing, Business Administration or related field",
+        "company_name": "XYZ Company",
+        "phone_number": "+1 (123) 456-7890",
+        "email": "marketing@xyzcompany.com",
+        "icon": "./Icons/business.png",
+        "logo": "./logo/google.png"
+    },
+    {
+        "id": 3,
+        "job_available": "100+",
+        "vacancy_position": "Software Engineer",
+        "location": "San Francisco",
+        "salary": "30k - 40k",
+        "description": "We are seeking a motivated Software Engineer to join our team. The ideal candidate will be responsible for developing high-quality software solutions, working closely with clients to understand their needs and translating them into technical requirements.",
+        "experiences": "2-3 years",
+        "responsibilities": "Developing high-quality software solutions",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "company_name": "LMN Company",
+        "phone_number": "+1 (123) 456-7890",
+        "email": "softwareeng@lmncompany.com",
+        "icon": "./Icons/social.png",
+        "logo": "./Logo/netflix.png"
+    },
+    {
+        "id": 4,
+        "job_available": "150+",
+        "vacancy_position": "Graphic Designer",
+        "location": "Chicago",
+        "salary": "20k - 30k",
+        "description": "We are seeking a creative Graphic Designer to join our team. The ideal candidate will be responsible for creating visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.",
+        "experiences": "2-3 years",
+        "responsibilities": "Creating visual concepts using computer software or by hand",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+        "company_name": "PQR Company",
+        "phone_number": "+1 (123) 456-7890",
+        "email": "graphicdesign@pqrcompany.com",
+        "icon": "./Icons/chip.png",
+        "logo": "./Logo/tesla.png"
+    }
+   
+]
