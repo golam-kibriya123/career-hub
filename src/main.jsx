@@ -39,7 +39,12 @@ const router = createBrowserRouter([
       {
         path: '/details',
         element: <JobDetails></JobDetails>,
-        
+
+      },
+      {
+        path: '*',
+        element: <Error></Error>
+
       }
 
     ],

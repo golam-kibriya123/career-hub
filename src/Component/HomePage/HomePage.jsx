@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import JobList from "../JobList/JobList";
 import Header from "../Header/Header";
 import JobFeatured from "../JobFeatured/JobFeatured";
-import Statistics from "../Statistics/Statistics";
 
 
 const HomePage = () => {
@@ -23,7 +22,6 @@ const HomePage = () => {
             <Header></Header>
             <JobList jobs={newJobs}></JobList>
             <JobFeatured jobs={jobs} newJobs={newJobs} ></JobFeatured>
-            <Statistics></Statistics>
         </div>
     );
 };
