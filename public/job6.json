@@ -1,0 +1,16 @@
+{
+    "id": 6,
+    "job_available": "150+",
+    "vacancy_position": "Graphic Designer",
+    "location": "Chicago",
+    "salary": "20k - 30k",
+    "description": "We are seeking a creative Graphic Designer to join our team. The ideal candidate will be responsible for creating visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.",
+    "experiences": "2-3 years",
+    "responsibilities": "Creating visual concepts using computer software or by hand",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+    "company_name": "PQR Company",
+    "phone_number": "+1 (123) 456-7890",
+    "email": "graphicdesign@pqrcompany.com",
+    "icon": "./Icons/chip.png",
+    "logo": "./Logo/tesla.png"
+}

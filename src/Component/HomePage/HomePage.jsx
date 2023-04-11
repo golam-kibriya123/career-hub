@@ -13,6 +13,7 @@ const HomePage = () => {
             .then(res => res.json())
             .then(data => setJobs(data))
     }, []);
+    
 
     const newJobs = jobs.slice(0, 4);
 

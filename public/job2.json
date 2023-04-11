@@ -1,0 +1,17 @@
+
+{
+    "id": 2,
+    "job_available": "20+",
+    "vacancy_position": "Marketing Manager",
+    "location": "Los Angeles",
+    "salary": "20k - 30k",
+    "description": "We are seeking a talented Marketing Manager to join our team. The ideal candidate will be responsible for developing and implementing marketing strategies, as well as managing and mentoring the marketing team.",
+    "experiences": "2-3 years",
+    "responsibilities": "Developing and implementing marketing strategies",
+    "educational_requirements": "Bachelor's degree in Marketing, Business Administration or related field",
+    "company_name": "XYZ Company",
+    "phone_number": "+1 (123) 456-7890",
+    "email": "marketing@xyzcompany.com",
+    "icon": "./Icons/business.png",
+    "logo": "./Logo/google.png"
+}

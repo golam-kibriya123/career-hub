@@ -16,8 +16,8 @@ const Statistics = () => {
     return (
         <div className='mx-auto'>
             <RadarChart
-                width={600}
-                height={400}
+                width={400}
+                height={450}
                 data={assignment}
             >
                 <PolarGrid />
@@ -25,7 +25,8 @@ const Statistics = () => {
                 <PolarRadiusAxis />
                 <Radar
                     name="Mike"
-                    dataKey="mark"                    stroke="#8884d8"
+                    dataKey="mark"
+                    stroke="#8884d8"
                     fill="#8884d8"
                     fillOpacity={0.6}
                 />

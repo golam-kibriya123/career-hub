@@ -1,0 +1,16 @@
+{
+    "id": 5,
+    "job_available": "100+",
+    "vacancy_position": "Software Engineer",
+    "location": "San Francisco",
+    "salary": "30k - 40k",
+    "description": "We are seeking a motivated Software Engineer to join our team. The ideal candidate will be responsible for developing high-quality software solutions, working closely with clients to understand their needs and translating them into technical requirements.",
+    "experiences": "2-3 years",
+    "responsibilities": "Developing high-quality software solutions",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "company_name": "LMN Company",
+    "phone_number": "+1 (123) 456-7890",
+    "email": "softwareeng@lmncompany.com",
+    "icon": "./Icons/social.png",
+    "logo": "./Logo/netflix.png"
+}

@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "job_available": "200+",
+    "vacancy_position": "Web Developer",
+    "location": "New York",
+    "salary": "10k - 20k",
+    "description": "We are seeking a skilled Web Developer to join our team. The ideal candidate will be responsible for designing, coding, and modifying websites, from layout to function and according to a client's specifications.",
+    "experiences": "2-3 years",
+    "responsibilities": "Designing, coding, and modifying websites",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "company_name": "ABC Company",
+    "phone_number": "+1 (123) 456-7890",
+    "email": "webdev@abccompany.com",
+    "icon": "./Icons/accounts.png",
+    "logo": "./Logo/google-1.png"
+}

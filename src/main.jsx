@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import {
   createBrowserRouter,
@@ -14,6 +13,8 @@ import Statistics from './Component/Statistics/Statistics';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import Blog from './Component/Blog/Blog';
 
+const newJ = `job1.json`;
+console.log(newJ)
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
         path: '/',
         element: <HomePage></HomePage>
       },
+
       {
         path: '/statistics',
         element: <Statistics></Statistics>
@@ -37,8 +39,9 @@ const router = createBrowserRouter([
         element: <Blog></Blog>
       },
       {
-        path: '/details',
+        path: '/details/:jobId',
         element: <JobDetails></JobDetails>,
+        loader: ({ params }) => fetch(`job${params.jobId}.json`)
 
       },
       {

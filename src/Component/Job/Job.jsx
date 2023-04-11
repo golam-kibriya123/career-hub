@@ -25,7 +25,7 @@ const Job = ({ job }) => {
                 <p className="flex items-center"><img src={dollar} alt="" className="w-5 h-5 p-0.5 border border-textD3 rounded-full mr-2" /> Salary:{salary}</p>
             </div>
 
-            <button className=" bg-gradient-to-l to-bgL1 from-bgD1 md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 "  >View Details</button>
+            <button className=" bg-gradient-to-l to-bgL1 from-bgD1 md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 "  > <Link to={`/details/${id}`}>View Details</Link> </button>
         </div>
     );
 };
