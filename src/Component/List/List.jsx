@@ -2,6 +2,7 @@ import './List.css'
 import React from 'react';
 
 const List = ({ job }) => {
+
     const { vacancy_position, job_available, icon } = job
     return (
         <div className='rounded-md mb-6 w-72 h-56 bg-bgL3  ps-8 pt-8 mx-auto'>

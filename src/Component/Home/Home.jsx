@@ -6,9 +6,12 @@ import Nav from "../Nav/Nav";
 import NavBar from "../NavBar/NavBar";
 
 const Home = () => {
+
     return (
         <div className="flex flex-col 
     h-[800px] max-w-[1920px]">
+
+
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>
