@@ -10,6 +10,7 @@ export default {
         'textD1': 'rgba(26, 25, 25, 1)',
         'textD2': 'rgba(117, 117, 117, 1)',
         'textD3': 'rgba(163, 163, 163, 1)',
+        'textD4': 'rgba(71, 71, 71, 1)',
         'textL1': 'rgba(255, 255, 255, 1)',
         'textL2': 'rgba(255, 255, 255, 0.7)',
 
