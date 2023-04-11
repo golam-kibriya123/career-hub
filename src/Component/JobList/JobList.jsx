@@ -1,14 +1,8 @@
 import List from "../List/List";
 import "./JobList.css"
-import React, { useEffect, useState } from 'react';
 
-const JobList = () => {
-    const [jobs, setJobs] = useState([]);
-    useEffect(() => {
-        fetch('fakeData.json')
-            .then(res => res.json())
-            .then(data => setJobs(data))
-    }, []);
+const JobList = ({jobs}) => {
+   
     return (
         <div className="w-full px-3 text-center mt-32">
             <h1 className="text-textD1 text-4xl font-extrabold">Job Category List</h1>

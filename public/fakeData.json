@@ -13,7 +13,7 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "webdev@abccompany.com",
         "icon": "./Icons/accounts.png",
-        "logo": "./logo/google-1.png"
+        "logo": "./Logo/google-1.png"
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "marketing@xyzcompany.com",
         "icon": "./Icons/business.png",
-        "logo": "./logo/google.png"
+        "logo": "./Logo/google.png"
     },
     {
         "id": 3,
@@ -63,5 +63,4 @@
         "icon": "./Icons/chip.png",
         "logo": "./Logo/tesla.png"
     }
-   
 ]
