@@ -14,10 +14,12 @@ const Statistics = () => {
         { id: 8, name: "knowledge-cafe", mark: 60 },
     ]
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto w-[90%] '>
+            <ResponsiveContainer
+                width="100%"
+            height={450}>
             <RadarChart
-                width={400}
-                height={450}
+
                 data={assignment}
             >
                 <PolarGrid />
@@ -33,7 +35,9 @@ const Statistics = () => {
                 <Tooltip></Tooltip>
 
             </RadarChart>
-        </div>
+        </ResponsiveContainer>
+
+        </div >
     );
 };
 

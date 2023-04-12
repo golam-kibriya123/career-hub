@@ -13,6 +13,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "webdev@abccompany.com",
         "icon": "./Icons/accounts.png",
+        "types": [
+            "Onsite",
+            "Remote"
+        ],
         "logo": "./Logo/google-1.png"
     },
     {
@@ -29,6 +33,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "marketing@xyzcompany.com",
         "icon": "./Icons/business.png",
+        "types": [
+            "Onsite",
+            "Full Time"
+        ],
         "logo": "./Logo/google.png"
     },
     {
@@ -45,6 +53,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "softwareeng@lmncompany.com",
         "icon": "./Icons/social.png",
+        "types": [
+            "Full Time",
+            "Remote"
+        ],
         "logo": "./Logo/netflix.png"
     },
     {
@@ -61,6 +73,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "softwareeng@lmncompany.com",
         "icon": "./Icons/social.png",
+        "types": [
+            "Onsite",
+            "Full Time"
+        ],
         "logo": "./Logo/netflix.png"
     },
     {
@@ -77,6 +93,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "softwareeng@lmncompany.com",
         "icon": "./Icons/social.png",
+        "types": [
+            "Onsite",
+            "Remote"
+        ],
         "logo": "./Logo/netflix.png"
     },
     {
@@ -93,6 +113,10 @@
         "phone_number": "+1 (123) 456-7890",
         "email": "graphicdesign@pqrcompany.com",
         "icon": "./Icons/chip.png",
+        "types": [
+            "Full Time",
+            "Remote"
+        ],
         "logo": "./Logo/tesla.png"
     }
 ]

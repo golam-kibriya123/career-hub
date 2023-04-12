@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <div className="bg-black text-textL1 mt-32 md:py-32 py-5">
             <div className="max-w-[1320px]  flex md:flex-row flex-col items-center justify-center ">
-                <div className="flex flex-col   md:w-[20%] w-1/2  md:mx-5   h-48 ">
+                <div className="flex flex-col   md:w-[20%] w-1/2  md:mx-5  h-60 md:h-48">
                     <h1 className="text-3xl mb-4">CareerHub</h1>
                     <p className="text-textD3 mb-4">There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
                     <img src={groupImg} alt="" className="w-32" />
                 </div>
-                <div className="md:w-[19%] w-1/2  md:mx-5 my-5  h-48">
+                <div className="md:w-[19%] w-1/2  md:mx-5  h-48">
                     <h1 className="text-3xl mb-4">Company</h1>
                     <ul className="text-textD3">About Us
                         <li>Work</li>

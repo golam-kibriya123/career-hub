@@ -12,7 +12,7 @@ const NavBar = () => {
     }
     return (
         <div className='font-serif flex  items-center justify-between p-4 w-full max-w-[1290px] pb-24 bg-gradient-to-r from-bgL3 to-bgL2 '>
-            <img src={careerHub} alt="" className='w-44 hidden md:block' />
+            <h1 className='hidden md:block font-extrabold text-3xl ' >Hunt Your Career</h1>
             <button className='relative h-8 w-9  md:hidden border border-bgD1' onClick={toggle}>
                 <img src={menuImg} alt="" className={` w-8 absolute  top-0 ${on ? 'block' : 'hidden'}  `} />
                 <img src={crossImg} alt="" className={` w-9 absolute top-0 ${on ? 'hidden' : 'block'}   `} />

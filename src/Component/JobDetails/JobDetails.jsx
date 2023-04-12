@@ -1,22 +1,25 @@
 import { Link, useLoaderData } from "react-router-dom";
 import "./JobDetails.css"
-import React from 'react';
+import React, { useState } from 'react';
 import dollar from '../../assets/Icons/dollar.png'
 import phone from '../../assets/Icons/phone.png'
 import mail from '../../assets/Icons/mail.png'
 import address from '../../assets/Icons/locatio.png'
 import job from '../../assets/Icons/date.png'
+import { addToDb } from "../../utititis/fakedb";
 
 
 const JobDetails = () => {
     const data = useLoaderData();
+    const handleAddDb = (id) => {
+        addToDb(id);
+    };
     const { vacancy_position, educational_requirements, email, experiences, phone_number, responsibilities, salary, location, id } = data;
-
 
     return (
 
         <div className="flex md:flex-row flex-col  items-center justify-around mt-32">
-            <div className="md:mb-0 mb-8">
+            <div className="md:mb-0 mb-8 p-7 md:p-0">
                 <h1 className="text-textD1 font-extrabold">Job Responsibility :<span className="text-textD2 font-semibold text-sm"> {responsibilities}</span></h1>
                 <h1 className="text-textD1 font-extrabold my-6 leading-8">Educational Requirement:
                     <br /><span className="text-textD2 font-semibold text-sm "> {educational_requirements}</span></h1>
@@ -37,9 +40,16 @@ const JobDetails = () => {
                         <p className="text-textD4 font-bold text-xl my-4 flex items-center"><img src={address} alt="" className="w-5 h-5 mr-2" /> Address: <span className="text-textD2 text-sm font-semibold ml-2">{location}</span></p>
                     </div>
                 </div>
-                <button className=" bg-gradient-to-l to-bgL1 from-bgD1 w-full md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 "  > Apply Now </button>
+
+
+                < button
+                    onClick={() => handleAddDb(id)}
+                    className=" bg-gradient-to-l to-bgL1 from-bgD1 md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 w-full"
+                >
+                    Apply Now
+                </button>
             </div>
-        </div>
+        </div >
 
 
     );
