@@ -12,22 +12,11 @@ const JobDetails = () => {
     const data = useLoaderData();
     const { vacancy_position, educational_requirements, email, experiences, phone_number, responsibilities, salary, location, id } = data;
 
-    const addedData = [];
-    console.log(addedData)
-    const storedData = () => {
-        const presentData = JSON.stringify(data);
-        const previousData = localStorage.getItem(data)
-        const newData = presentData + previousData;
-        addedData.push(newData);
 
-        localStorage.setItem('data', addedData);
-        console.log(storedData.length)
-
-    }
     return (
 
-        <div className="flex items-center justify-around">
-            <div>
+        <div className="flex md:flex-row flex-col  items-center justify-around mt-32">
+            <div className="md:mb-0 mb-8">
                 <h1 className="text-textD1 font-extrabold">Job Responsibility :<span className="text-textD2 font-semibold text-sm"> {responsibilities}</span></h1>
                 <h1 className="text-textD1 font-extrabold my-6 leading-8">Educational Requirement:
                     <br /><span className="text-textD2 font-semibold text-sm "> {educational_requirements}</span></h1>
@@ -48,7 +37,7 @@ const JobDetails = () => {
                         <p className="text-textD4 font-bold text-xl my-4 flex items-center"><img src={address} alt="" className="w-5 h-5 mr-2" /> Address: <span className="text-textD2 text-sm font-semibold ml-2">{location}</span></p>
                     </div>
                 </div>
-                <button className=" bg-gradient-to-l to-bgL1 from-bgD1 w-full md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 " onClick={storedData} > Apply Now </button>
+                <button className=" bg-gradient-to-l to-bgL1 from-bgD1 w-full md:py-4 md:px-5 py-3 px-4 text-sm  rounded-lg  text-textL1 md:text-xl font-extrabold mt-6 "  > Apply Now </button>
             </div>
         </div>
 
